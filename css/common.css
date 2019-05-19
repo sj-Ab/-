@@ -1,0 +1,28 @@
+/* rest css */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* common css */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.layout {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
